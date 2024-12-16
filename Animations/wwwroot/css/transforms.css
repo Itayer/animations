@@ -1,0 +1,26 @@
+﻿.container {
+    max-width:600px;
+    margin:130px auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo {
+    max-width:60%;
+/*1    transform: rotate(90deg);*/
+/*  3  transition:all , 1s;*/
+}
+
+    .logo:hover {
+/* 2           transform: rotate(90deg);*/
+        /*move it across x axis*/
+/*   4             transform:translateX(200px);*/
+        /*move it across y axis*/
+/*    5            transform: translateY(200px);*/
+        /*move it across both axises*/
+/*     6           transform: translate(200px,200px);*/
+        /*        use several transforms at once*/
+/*      7  transform: translateX(200px) rotate(90deg);*/
+        /*do alone skey , scal*/
+    }
