@@ -1,0 +1,25 @@
+﻿
+
+/* Create the circle */
+.circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: deeppink;
+    border-radius: 50%; /* Makes it a circle */
+    top: 50%; /* Start in the middle vertically */
+    left: 50%; /* Start in the middle horizontally */
+    animation: spinAround 2s linear infinite;
+    transform-origin: -25px center; /* Set the rotation origin point */
+}
+
+/* Keyframes to move and rotate the circle */
+@keyframes spinAround {
+    0% {
+        transform:  rotate(0deg);
+    }
+
+    100% {
+        transform:  rotate(360deg);
+    }
+}

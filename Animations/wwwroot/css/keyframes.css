@@ -1,0 +1,42 @@
+﻿.container {
+    max-width: 1100px;
+    margin:30px auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    animation: animate-demo 2s;
+    /*    leave it as end position */
+/*        animation-fill-mode:forwards;*/
+    /*    use delay*/
+/*        animation-delay:2s;*/
+    /*    limit the amount of count*/
+/*        animation-iteration-count:3;*/
+    /*infinite*/
+/*    animation-iteration-count: infinite;*/
+
+/*    reverse*/
+/*    animation-direction:reverse;*/
+
+}
+
+/*keyframe to animate thead width*/
+
+@keyframes animate-demo {
+    from {
+        width:100px;
+/*        background-color:coral;*/
+/*        height:100px;*/
+/*          transform:rotate(0deg)*/
+    }
+
+    to { 
+        width:200px;
+/*        background-color:lightblue;*/        
+/*        height:500px;*/
+/*        transform:rotate(180deg);*/
+    }
+}
+
